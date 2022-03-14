@@ -7,7 +7,7 @@ const express = require('express');
 const path = require('path');
 const server = express();
 
-server.use('/_assets', express.static(path.join(__dirname, '../client/_assets')));
+server.use('/_assets', express.static(path.join(__dirname, '../../client/_assets')));
 
 server.get('*', (req, res) => {
   const router = createRouter();
