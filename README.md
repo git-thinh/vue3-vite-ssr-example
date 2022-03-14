@@ -1,4 +1,4 @@
-# vue3-vite-ssr-example
+# Vue3 Vite SSR Example -> OK
 
 This repo is purely a proof of concept and is not actively maintained.
 For a more production ready setup, have a look at [vite-ssr](https://github.com/frandiox/vite-ssr)
